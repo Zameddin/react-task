@@ -35,7 +35,7 @@ const App = () => {
         <Header />
         <Routes>
           <Route
-            path="/"
+            path="react-task/"
             element={
               <div className="content" >
                 <div className='moiveList'>
