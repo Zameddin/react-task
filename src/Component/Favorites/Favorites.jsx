@@ -34,7 +34,7 @@ export const Favorites = ({ selectedMovies, onRemoveFromList, onSaveListName }) 
       <br />
       {isListSaved ? (
         <Link to={`/saved-movies/${encodeURIComponent(listName)}`}>
-          <button className='saveButton'> Saved</button>
+          <button className='saveButton'> Go to saved movies</button>
 
         </Link>
       ) : (
