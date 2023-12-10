@@ -7,8 +7,8 @@ label{
     margin-left: 10px;
 }
 .saveButton{
-   margin-left: 150px;
-    width: 100px;
+   margin-left: 120px;
+    width: 200px;
     padding: 12.5px 30px;
   border: 0;
   border-radius: 100px;
@@ -35,7 +35,7 @@ label{
 .inputListName{
     margin-bottom: 10px;
     text-align: center;
-    margin-left: 70px;
+    margin-left: 99px;
     background-color: #eee;
   border: none;
   padding: 15px;
