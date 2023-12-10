@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+  margin-bottom: 20px;
+}
+.header p{
+  background-color: rgb(56 83 95);
+  color:aqua;
+    font-size: 40px;
+    font-family: 'Alfa Slab One';
+    mix-blend-mode: exclusion;
+    padding-left: 10%;
+    text-align: left;
+   
+}
+.header p:hover{
+  color:white;
+}

@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.search img{
+    
+    height: 200px;
+}
+
+
+
+
+
+.div button{
+   position: absolute;
+    top: 150px;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.image-name p{
+    font-family: 'Montserrat';
+    padding-right: 5px;
+    font-size: 16px;
+    margin-bottom: 14px;
+    padding-top: 7px;
+    font-weight: 900;
+    color: rgb(46, 40, 40);
+    
+}
+.box label{
+    font-size: 26px;
+}
+
+.box input{
+    font-family: 'Montserrat';
+    padding-left: 10px;
+	width: 100%;
+	height: 100%;
+	border-radius: 100px;
+  margin-left: 280PX;
+    height: 40px;
+    width: 340px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.button1:hover{
+    background-color: aqua;
+    cursor: pointer;
+    color: white;
+}
+.button1{
+    font-family: 'Montserrat';
+    border-radius: 100px;
+    width: 100px;
+    height: 44px;
+    margin-left: 15px;
+    font-size: 19px;
+}
+.detail{
+    font-family: 'Montserrat';
+    display: block;
+text-decoration: none;
+   margin-top: 0px;
+    margin-left: 105px;
+        width: 100px;
+        height: 30px;
+        font-size: 16px;
+        background-color: #1d3a48;
+            border: 0;
+            color: white;
+            border-radius: 20px;
+            transition: 0.4s ease;
+}
+.detail:hover{
+    background: black;
+    cursor: pointer;
+}
+a{
+    height: 0px;
+}
+
+.add-to-list{
+    font-family: 'Montserrat';
+    display: block;
+position: absolute;
+    margin-top: 0px;
+     margin-left: -115px;
+         width: 100px;
+         height: 30px;
+         font-size: 14px;
+         background-color: #1d3a48;
+             border: 0;
+             color: white;
+             border-radius: 20px;
+             transition: 0.4s ease;
+}
+.add-to-list:hover{
+    cursor: pointer;
+    background: black;
+}
+.search{
+    margin-right:40px;
+    background-color: #e7edf1;
+    width: 300px;
+    height: 570px;
+    margin-top: 26px;
+   margin-bottom: 20px;
+}
+
+
+
+.image-name{
+    display:flex;
+}
+.detail-addList{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.film-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .search {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .search:hover {
+    transform: scale(1.1); /* Adjust the scale factor as needed */
+  }
+  
+  .image-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-name img {
+    width: 100%;
+    height: 445px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .detail-addList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .search {
+border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .search:hover {
+    transform: scale(1.1);
+  }
+  
+  .image-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .detail-addList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+ 
+  .error-message {
+    font-size: 18px;
+    color: #ff5252; /* or any other color you prefer */
+    margin: 20px 0;
+  }
+
+
+
+  @media screen and (min-width: 300px) and (max-width: 600px) {
+    .box {
+      width: 90%; 
+      margin: auto; 
+    }
+  
+    .button1 {
+      width: 80px; 
+      font-size: 16px; 
+    }
+  
+    .box input {
+      width: 50%; 
+      margin-left: 0; 
+    }
+  
+    .film-container {
+      width: 100%;
+      margin-right: 0; 
+    }
+  
+    .search {
+      height: 430px;
+      width: 90%; 
+      margin-right: 0;
+      margin-bottom: 10px; 
+    }
+  
+    .image-name img {
+      width: 70%;
+      height: 300px
+    }
+  
+    .detail-addList {
+      flex-direction: column; /* Stack buttons vertically on smaller screens */
+      align-items: center; /* Center buttons horizontally on smaller screens */
+    }
+  }
