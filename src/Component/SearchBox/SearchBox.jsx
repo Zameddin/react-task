@@ -30,7 +30,7 @@ const SearchBox = ({ onAddToList, isListSaved }) => {
     }
   };
   const main = (e) => {
-    getFirst(e.target.value.toLowerCase());
+    getFirst(e.target.value.toLowerCase().trim(''));
   };
   const check = () => {
     fetch(`https://www.omdbapi.com/?s=${first}&apikey=aa01eba0`)
